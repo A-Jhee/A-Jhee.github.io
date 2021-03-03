@@ -121,10 +121,9 @@
 
 	<!-- Project start -->
 
-	<section id="project" class="module">
+	<section id="project" class="module js-height-full">
 		<div class="container">
 			<div class="row">
-
 				<div class="module-header">
 					<h2 class="module-title">
 						Project
@@ -132,32 +131,27 @@
 					</h2>
 					<div class="module-line"></div>
 				</div>
-
 			</div><!-- .row -->
 
-			<!-- Portfolio Filter start-->
-			<!-- <section id="portfolio" class="module"> -->
-				<div id="demo-overlay">
-					<div class="row position-relative">
-						
-						<div class="demo-btn text-center">
-							<h2>GECKO bug tracker is an issue tracker</h2>
-							<h2>for software development teams.</h2>
-							<h4>Built with Ruby, PostgresSQL, HTML5, CSS3, Bootstrap, JavaScript, & jQuery</h4>
-							<a href="https://geckobugtracker.herokuapp.com/" target="_blank" class="btn btn-primary">Visit Project Site</a>
-						</div>
-
-						<video id="demo-banner" poster="demo-poster.png" autoplay muted loop>
-							<source src="demo_showcase_1080.mp4" type="video/mp4">
-						</video>
-
-					</div><!-- .row -->
+<!-- 			<div id="demo-overlay">
+				<div class="row position-relative">
+					
+					<div class="demo-btn text-center">
+						<h2>GECKO bug tracker is an issue tracker</h2>
+						<h2>for software development teams.</h2>
+						<h4>Built with Ruby, PostgresSQL, HTML5, CSS3, Bootstrap, JavaScript, & jQuery</h4>
+						<a href="https://geckobugtracker.herokuapp.com/" target="_blank" class="btn btn-primary">Visit Project Site</a>
+					</div>
+					<video id="demo-banner" poster="demo-poster.png" autoplay muted loop>
+						<source src="demo_showcase_1080.mp4" type="video/mp4">
+					</video>
 				</div>
-			<!-- </section> -->
 
-			<!-- Portfolio Filter end -->
+				<a id="video" class="youtube-bg" data-property="{videoURL:'https://youtu.be/dHlogKdcluU',containment:'#demo-overlay', showControls:false, autoPlay:true, loop:true, mute:true, startAt:0, opacity:1, quality:'default'}"></a>
+			</div> -->
 
 		</div><!-- .contaier -->
+		<a id="video" class="youtube-bg" data-property="{videoURL:'https://youtu.be/dHlogKdcluU',containment:'#project', showControls:false, autoPlay:true, loop:true, mute:true, startAt:0, opacity:1, quality:'default'}"></a>
 	</section>
 
 	<!-- Portfolio end -->
@@ -315,7 +309,7 @@
 						<div class="iconbox-text">
 							<h3 class="iconbox-title">Database Development</h3>
 							<div class="iconbox-desc">
-								Database development is essential to most projects. I am very proficient in SQL development from queries to design.
+								Database is essential to most projects. I am very proficient in SQL development from queries to design.
 							</div>
 						</div>
 					</div>
@@ -328,7 +322,7 @@
 						<div class="iconbox-text">
 							<h3 class="iconbox-title">HTML5</h3>
 							<div class="iconbox-desc">
-								I use HTML5 to design websites with semantic structure for readability and ease of upkeep.
+								I use HTML5 to design websites with semantic structure for ease of upkeep and logical class name use for readability.
 							</div>
 						</div>
 					</div>
@@ -405,21 +399,19 @@
 			</div>
 
 
-			<div class="row">
-
-				<div class="col-sm-6">
+			<div class="row text-center">
 
 					<div class="row">
 
-						<div class="col-sm-7 col-sm-offset-3">
+						<div class="col-sm-12">
 							<div class="iconboxleft wow fadeInUp">
-								<div class="iconboxleft-icon">
+								<div class="iconboxleft-icon-contact">
 									<i class="fas fa-envelope-open-text"></i>
 								</div>
-								<div class="iconboxleft-text">
+								<div class="iconboxleft-text-contact">
 									<h3 class="iconboxleft-title">E-Mail</h3>
 								</div>
-								<div class="iconboxleft-text">
+								<div class="iconboxleft-text-contact">
 									<div class="iconboxleft-desc">
 										agenejhee@gmail.com
 									</div>
@@ -431,15 +423,15 @@
 
 					<div class="row">
 
-						<div class="col-sm-7 col-sm-offset-3">
+						<div class="col-sm-12">
 							<div class="iconboxleft wow fadeInUp">
-								<div class="iconboxleft-icon">
+								<div class="iconboxleft-icon-contact">
 									<i class="fas fa-mobile-alt"></i>
 								</div>
-								<div class="iconboxleft-text">
+								<div class="iconboxleft-text-contact">
 									<h3 class="iconboxleft-title">Mobile</h3>
 								</div>
-								<div class="iconboxleft-text">
+								<div class="iconboxleft-text-contact">
 									<div class="iconboxleft-desc">
 										(+82) 01-5895-2392
 									</div>
@@ -451,15 +443,15 @@
 
 					<div class="row">
 
-						<div class="col-sm-7 col-sm-offset-3">
+						<div class="col-sm-12">
 							<div class="iconboxleft wow fadeInUp">
-								<div class="iconboxleft-icon">
+								<div class="iconboxleft-icon-contact">
 									<i class="fab fa-linkedin-in"></i>
 								</div>
-								<div class="iconboxleft-text">
+								<div class="iconboxleft-text-contact">
 									<h3 class="iconboxleft-title">LinkedIn</h3>
 								</div>
-								<div class="iconboxleft-text">
+								<div class="iconboxleft-text-contact">
 									<div class="iconboxleft-desc">
 										<a href="https://www.linkedin.com/in/agene-jhee/" target="_blank">linkedin.com/in/agene-jhee</a>
 									</div>
@@ -468,35 +460,6 @@
 						</div>
 
 					</div><!-- .row -->
-
-				</div>
-
-				<!-- <div class="col-sm-6 col-sm-offset-3"> -->
-				<div class="col-sm-6">
-
-					<form id="contact-form" method="post" action="contact.php" data-parsley-validate="" novalidate="">
-						<div class="ajax-hidden">
-							<div class="form-group wow fadeInUp">
-								<label class="sr-only" for="c_name">Name</label>
-								<input type="text" id="c_name" class="form-control" name="c_name" placeholder="Name" parsley-trigger="change" required="" autocomplete="off">
-							</div>
-
-							<div class="form-group wow fadeInUp" data-wow-delay=".1s">
-								<label class="sr-only" for="c_email">Email address</label>
-								<input type="email" id="c_email" class="form-control" name="c_email" placeholder="E-mail" parsley-type="email" required="" autocomplete="off">
-							</div>
-
-							<div class="form-group wow fadeInUp" data-wow-delay=".2s">
-								<textarea class="form-control" id="c_message" name="c_message" rows="7" placeholder="Your message" parsley-trigger="change" required="" autocomplete="off"></textarea>
-							</div>
-
-							<button type="submit" class="btn btn-block btn-custom-2 wow fadeInUp" data-wow-delay=".3s">Send Message
-							</button>
-						</div>
-						<div class="ajax-response"></div>
-					</form>
-
-				</div>
 
 			</div><!-- .row -->
 		</div><!-- .container -->
