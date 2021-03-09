@@ -1842,6 +1842,11 @@ figure {
 	top: 55%;
 }
 
+.demo-btn h2,
+.demo-btn h4 {
+	text-shadow: 2px 2px #0B0C10;
+}
+
 .demo-btn h4 {
 	margin-bottom: 20px;
 }
@@ -1939,8 +1944,10 @@ figure {
 	.demo-btn h2 {
 		font-size: 1.8rem;
 	}
-	.demo-btn h2, .demo-btn h4 {
+	.demo-btn h2,
+	.demo-btn h4 {
 		color: #0B0C10;
+		text-shadow: 2px 2px #45A29E;
 	}
 }
 
